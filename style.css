@@ -1,0 +1,54 @@
+/* 
+Theme Name: whatever-theme
+Author: Nick.b2k
+version: 1.0
+*/
+ /* edits header 1*/
+h1 { 
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: rgb(206, 70, 70);
+    opacity: calc(0.8);
+}
+/* contains image and text identified as .username */
+img {
+    width: 360px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 15px;
+    object-fit: cover;
+}
+.username{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+em{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+.description{
+    font-family: cursive;
+}
+.title{
+    font-family: 'Franklin Gothic Medium',  
+    'Arial Narrow', Arial, sans-serif
+}
+.section-html{
+    font-family: cursive;
+}
+.html-description{
+    font-family: cursive;
+    font-size: 15px;
+}
+.section-css{
+    font-family: cursive;
+}
+.css-description{
+    font-family: cursive;
+    font-size: 15px;
+}
+/* ~~~~~~~~~~~~~ about page ~~~~~~~~~~~~~~~ */ 
+.about-header {
+    font-family: cursive;
+}
