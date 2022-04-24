@@ -11,6 +11,55 @@ h1 {
     background-color: rgb(206, 70, 70);
     opacity: calc(0.8);
 }
+
+.css-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-style: solid;
+    border-radius: 18px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+.css-button:hover {
+    color: #c9d1d9; 
+    text-decoration: none;
+    border-bottom-color: #f78166;
+    outline: 1px dotted transparent;
+    outline-offset: -1px;
+    transition: border-bottom-color .12s ease-out;
+
+}
+.about-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-style: solid;
+    border-radius: 18px;
+    outline: 1px dotted transparent;
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.about-button:hover {
+    color: #c9d1d9; 
+    text-decoration: none;
+    border-bottom-color: #f78166;
+    outline: 1px dotted transparent;
+    outline-offset: -1px;
+    transition: border-bottom-color .12s ease-out;
+}
+
+
+
+
+    
 /* contains image and text identified as .username */
 img {
     width: 360px;
@@ -51,4 +100,12 @@ em{
 /* ~~~~~~~~~~~~~ about page ~~~~~~~~~~~~~~~ */ 
 .about-header {
     font-family: cursive;
+}
+.about-description {
+    font-family: cursive;
+}
+.home-button {
+    font-family: cursive;
+    text-decoration: none;
+    text-decoration-line: none;
 }
