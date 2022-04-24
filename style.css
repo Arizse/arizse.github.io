@@ -56,8 +56,74 @@ h1 {
     transition: border-bottom-color .12s ease-out;
 }
 
+.google-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-style: solid;
+    border-radius: 18px;
+    outline: 1px dotted transparent;
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+}
 
+.google-button:hover {
+    color: #c9d1d9; 
+    text-decoration: none;
+    border-bottom-color: #f78166;
+    outline: 1px dotted transparent;
+    outline-offset: -1px;
+    transition: border-bottom-color .12s ease-out;
+}
 
+.email-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-style: solid;
+    border-radius: 18px;
+    outline: 1px dotted transparent;
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.email-button:hover {
+    color: #c9d1d9; 
+    text-decoration: none;
+    border-bottom-color: #f78166;
+    outline: 1px dotted transparent;
+    outline-offset: -1px;
+    transition: border-bottom-color .12s ease-out;
+}
+
+.jump-to-top-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-style: solid;
+    border-radius: 18px;
+    outline: 1px dotted transparent;
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.jump-to-top-button:hover {
+    color: #c9d1d9; 
+    text-decoration: none;
+    border-bottom-color: #f78166;
+    outline: 1px dotted transparent;
+    outline-offset: -1px;
+    transition: border-bottom-color .12s ease-out;
+}
 
     
 /* contains image and text identified as .username */
@@ -108,4 +174,5 @@ em{
     font-family: cursive;
     text-decoration: none;
     text-decoration-line: none;
+    cursor: pointer;
 }
