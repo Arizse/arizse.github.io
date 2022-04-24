@@ -3,36 +3,60 @@
   <head>
     <link rel="shortcut icon" href="#" />
     <link href="style.css" rel="stylesheet" />
-    <link rel="stylesheet" type="css" href="Company/about.html" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="keywords" content="HTML, CSS" />
-    <meta name="description" content="My friend really loves feet" />
+    <meta name="description" content="Good days" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FeetforSalt</title>
+    <title>Pumpin Iron</title>
   </head>
   <body>
     <h1 class="title">Booo!</h1>
-    <a href="#section-css">CSS</a>
-    <a href="/Company/about.html">About</a>
-    <a href="https://Pornhub.com" target="_blank">google</a>
-    <a href="mailto:Pornhub@Outlook.com">email</a>
+    <button class="css-button" type="button" onclick="css()">css</button>
+    <script>
+      function css() {
+        window.location.href = "#section-css";
+      }
+    </script>
+    <button class="about-button" type="button" onclick="about()">About</button>
+    <script>
+      function about() {
+        window.location.href = "/company/about.html";
+      }
+    </script>
+    <button class="google-button" type="button" onclick="google()">
+      Google
+    </button>
+    <script>
+      function google() {
+        window.open("https://www.pornhub.com", "_blank").focus();
+      }
+    </script>
+    <button class="email-button" type="button" onclick="email()">Email</button>
+    <script>
+      function email() {
+        window.location.href = "mailto:pornhub@outlook.com";
+      }
+    </script>
     <h2 class="section-html">HTML</h2>
-    <p class="html-description">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure illum
-      aperiam, laborum rerum totam
-    </p>
+    <p class="html-description">html isnt that hard</p>
     <h2 class="section-css">CSS</h2>
-    <p class="css-description">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptate
-      speriores at optio!
-    </p>
-    <a href="images/feet.jpg" download>
-      <img src="images/feet.jpg" alt="An image of salts favorite feet" />
+    <p class="css-description">css is even easier</p>
+    <a href="images/halo guts.jpg" download>
+      <img src="images/halo guts.jpg" alt="An image of warriors" />
     </a>
-    <p class="username">@GloriousFeet</p>
-    <p class="description">salt loves feet<em> !!!</em></p>
-    <a href="#">Jump to Top</a>
+    <p class="username">@booo!</p>
+    <p class="description">
+      flew pretty good for a raw piece of iron<em> !!!</em>
+    </p>
+    <button class="jump-to-top-button" type="button" onclick="jump()">
+      Jump to Top
+    </button>
+    <script>
+      function jump() {
+        window.location.href = "#";
+      }
+    </script>
     <script src="index.js"></script>
   </body>
 </html>
